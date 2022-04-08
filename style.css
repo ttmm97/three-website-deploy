@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;300;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  color: white;
+  overflow-x: hidden;
+}
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+main {
+  position: absolute;
+  width: 100vw;
+  height: 200vh;
+  z-index: 100;
+  justify-content: center;
+  text-align: center;
+  font-size: 4rem;
+  margin-top: 70px;
+}
+
+section {
+  min-height: 100vh;
+  padding: 20px;
+  font-size: 3.5rem;
+}
+
+.kotira {
+  margin-top:60px;
+  width: 130px;
+  height:70px;
+  border: 2px solid #000000;
+  border-radius:4px;
+  transition: 1.0s;
+  font-size:20px;
+}
+.kotira:hover{
+  color:#ffffff;
+  background-color: #000000;
+}
